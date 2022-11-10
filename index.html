@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/11aa0d8b5d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="social"> 
+    <div class="social" id="home"> 
         <div class="small-container footer-text-center">
             <div class="footer-text">
                 <p>© Made by <span class="solaiman">Solaiman</span> </p>
@@ -30,10 +30,10 @@
             <img src="images/menu.png" alt="" class="menu-img">
             <p class="solaiman">Solaiman</p>
             <ul>
-                <li class="ul"><a href="#about">About-me</a></li>
-                <li class="ul"><a href="#services">My services</a></li>
-                <li class="ul"><a href="">My Project</a></li>
-                <li class="ul"><a href="#contact">Contact me</a></li>
+                <li class="ul"><a href="#about">About Me</a></li>
+                <li class="ul"><a href="#services">My Services</a></li>
+                <li class="ul"><a href="#project">My Project</a></li>
+                <li class="ul"><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
         <button class="button-light" type="button" onclick="toggleBtn()" id="btn"><span class="menu-click"></span></button>
@@ -42,10 +42,13 @@
             <img src="images/lamp.png" alt="" class="lamp">
             <img src="images/light.png" alt="" class="light" id="light">
         </div>
-    <section class="home">
-        <div class="home-text"><h1 class="text-1">Hello, <br> I am <br>Md. Solaimanur Rahman</h1></div>
-                <div class="text-2">And I'm a <span class="typing"></span></div>
-    </section>
+        <section class="home">
+            <div><h1 class="text-2"><p class="br">Hello, I am <br></p>Md. Solaimanur Rahman</h1></div>
+            <div class="text-2">And I'm a <span class="typing"></span></div> <br>
+        </section>
+    <ul>
+        <li class="CV"><a href="https://drive.google.com/file/d/1lf5uk2z-QK5xtUWxokGhXHXIBeYGWvbC/view?usp=share_link">CV Download</i></a></li>
+    </ul>
         <div class="animate-icon">
             <img src="images/html.png" alt="" width="130px">
             <img src="images/css.webp" alt="" width="110px">
@@ -166,6 +169,20 @@
 </section>
 <!-- My Service Section End -->
 
+<div class="back">
+    <div class="project_container" id="project">
+        <h2 class="title a">My Project</h2>
+        <div class="gallery">
+            <a href="image/portfolio 1.jpg"><img src="image/portfolio 1.jpg" alt="Portfolio 1"></a>
+            <a href="image/portfolio 2.jpg"><img src="image/portfolio 2.jpg" alt="Portfolio 1"></a>
+            <a href="image/portfolio 3.jpg"><img src="image/portfolio 3.jpg" alt="Portfolio 1"></a>
+            <a href="image/portfolio 4.jpg"><img src="image/portfolio 4.jpg" alt="Portfolio 1"></a>
+            <a href="image/portfolio 5.jpg"><img src="image/portfolio 5.jpg" alt="Portfolio 1"></a>
+            <a href="image/portfolio 6.jpg"><img src="image/portfolio 6.jpg" alt="Portfolio 1"></a>
+        </div>
+    </div>
+</div>
+
 
 <!-- Contact Section Start -->
 <section class="contact" id="contact">
@@ -227,7 +244,7 @@
 <!-- Contact Section End -->
 
 <!-- Fotter section Start -->
-<div class="social"> 
+<div class="social" id="footer"> 
     <div class="small-container footer-text-center">
         <div class="footer-text">
             <p>© Made by <span class="solaiman">Solaiman</span> </p>
@@ -238,6 +255,11 @@
             <li><a href="https://github.com/Solaimanur"><i class="fab fa-github"></i></a></li>            
         </div> 
     </div>
+</div>
+
+<div class="bar">
+    <a href="#home"><i class="fas fa-chevron-circle-up" ></i></a>
+    <a href="#footer"><i class="fas fa-chevron-circle-down" ></i></a>
 </div>
 <!-- Fotter section End -->
  <script src="app.js"></script>   
